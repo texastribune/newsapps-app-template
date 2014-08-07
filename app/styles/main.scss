@@ -1,0 +1,19 @@
+@import 'bourbon/dist/bourbon';
+@import 'neat/app/assets/stylesheets/neat';
+
+@import 'newsapps-styles/base/normalize';
+@import 'newsapps-styles/helpers/colors';
+@import 'newsapps-styles/layout/footers/small';
+
+header {
+  background-color: rgb(0, 128, 0);
+  border-radius: 4px;
+
+  h1 {
+    color: rgb(255, 0, 0);
+  }
+}
+
+p {
+  color: rgb(255, 192, 203);
+}
